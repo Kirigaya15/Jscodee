@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset=utf-8 />
+
+<title>JS DOM Final Exam</title>
+
+</head>
+
+<body>
+
+<p id ='text'>JavaScript DOM Access Exercises</p>
+
+<div>
+
+<button id="js_style" onclick="js_style()"> Style </button>
+
+</div>
+
+<script>
+function js_style()
+{
+//font styles added by JS:
+text.style.fontSize = "14pt";
+text.style.fontFamily = "Comic Sans MS";
+text.style.color = "green";
+}
+
+</script>
+</body>
+
+</html>
